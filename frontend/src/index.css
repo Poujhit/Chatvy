@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'TTNorms-Regular';
+  src: local('Lato'), url(./fonts/TTNorms-Regular.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'TTNorms-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
