@@ -1,0 +1,19 @@
+{
+  "name": "chatvy",
+  "version": "1.0.0",
+  "description": "Decentralised, offline-first, peer-to-peer chat application",
+  "scripts": {
+    "start": "cd frontend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poujhit/Chatzilla.git"
+  },
+  "author": "Poujhit <poujhit.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Poujhit/Chatzilla/issues"
+  },
+  "homepage": "https://github.com/Poujhit/Chatzilla#readme",
+  "dependencies": {}
+}
