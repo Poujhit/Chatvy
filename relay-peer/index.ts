@@ -1,19 +1,18 @@
-const Gun = require('gun');
+import Gun from 'gun';
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
 
-const dotenv = require('dotenv');
 dotenv.config();
 
-const express = require('express');
-const cors = require('cors');
-
-var corsOptions = {
+const corsOptions = {
   origin: process.env.ORIGIN,
 };
 
 const app = express();
 app.use(cors(corsOptions));
 console.log('Hello');
-app.use(Gun.serve);
+app.use((Gun as any).serve);
 
 const router = express.Router();
 app.use(router);
