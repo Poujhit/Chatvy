@@ -8,7 +8,7 @@ import { useHistory } from 'react-router-dom';
 import CustomTextField from './CustomTextField';
 
 import { Box } from '@mui/system';
-import { Button, CircularProgress } from '@mui/material';
+import { Button, CircularProgress, Typography } from '@mui/material';
 
 import { user } from 'utils/gun';
 import CustomSnackbar from 'components/CustomSnackbar/CustomSnackbar';
@@ -112,7 +112,7 @@ const LoginForm: React.FC<LoginFormProps> = () => {
                 }}
               />
             ) : (
-              'Submit'
+              <Typography sx={{ color: 'white' }}>Submit</Typography>
             )}
           </Button>
           <CustomSnackbar
