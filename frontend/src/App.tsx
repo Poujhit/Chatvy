@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <div className='App'>
           <Switch>
             <Route path='/' exact component={AuthPage} />
-            <Route path='/home' exact component={HomePage} />
+            <Route path='/chat-rooms' exact component={HomePage} />
           </Switch>
         </div>
       </BrowserRouter>

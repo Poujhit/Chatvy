@@ -68,7 +68,7 @@ const LoginForm: React.FC<LoginFormProps> = () => {
             if (Object.keys(ack).includes('err')) {
               setOpen(true);
               setLoading(false);
-            } else router.push('/home');
+            } else router.push('/chat-rooms');
           });
         });
       }}

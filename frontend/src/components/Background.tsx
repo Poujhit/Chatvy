@@ -12,10 +12,9 @@ const Background: React.FC<BackgroundProps> = (props) => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh',
-        width: '100vw',
+        height: '100%',
+        width: '100%',
         backgroundColor: '#171926',
-        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
       }}
     >
       {props.children}

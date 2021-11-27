@@ -6,8 +6,11 @@ export const theme = createTheme({
   },
   palette: {
     mode: 'dark',
+    error: {
+      main: '#eb510a',
+    },
     primary: {
-      main: '#16d741',
+      main: '#64a392',
     },
   },
 });
