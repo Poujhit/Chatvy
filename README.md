@@ -1,10 +1,12 @@
 # Chatvy
 
-<p>
+<!-- <p>
 <img src="./client/public/icon.png"/>
-</p>
+</p> -->
 
 **Website under upgrade to v2.0 - Decentralised, offline-first, peer-to-peer chat application powered by gun.js**
+
+[Color pallete](https://colorhunt.co/palette/1a1a2e16213e0f3460e94560) 
 
 A Private Chat Room Application made using React/Typescript and NodeJs.\
 Try out [here](https://chatzilla-private-chat.web.app/).
