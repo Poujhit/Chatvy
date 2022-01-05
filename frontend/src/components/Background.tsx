@@ -14,7 +14,7 @@ const Background: React.FC<BackgroundProps> = (props) => {
         alignItems: 'center',
         height: '100%',
         width: '100%',
-        backgroundColor: '#171926',
+        backgroundColor: '#1A1A2E',
       }}
     >
       {props.children}

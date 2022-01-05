@@ -4,11 +4,11 @@
 }
 
 ::-moz-selection {
-  background-color: #fca118f8;
+  background-color: #E94560;
   color: #fff;
 }
 ::selection {
-  background-color: #fca118f8;
+  background-color: #E94560;
   color: #fff;
 }
 

@@ -32,7 +32,7 @@ const MainLayout: React.FC<MainLayoutProps> = () => {
     <AppBar
       position='static'
       sx={{
-        backgroundColor: '#343846',
+        backgroundColor: '#16213E',
       }}
     >
       <Container maxWidth='xl'>

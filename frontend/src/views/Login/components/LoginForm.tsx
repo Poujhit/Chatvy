@@ -97,10 +97,7 @@ const LoginForm: React.FC<LoginFormProps> = () => {
             disabled={loading}
             sx={{
               width: '30%',
-              background:
-                ' linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%)',
-              boxShadow:
-                '6px 6px 25px rgba(42, 139, 242, 0.15), 4px 4px 25px rgba(42, 139, 242, 0.05), 10px 6px 25px rgba(42, 139, 242, 0.15)',
+              backgroundColor: ' #E94560',
               borderRadius: '6px',
             }}
           >

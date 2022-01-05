@@ -29,7 +29,7 @@ const LoginPage: React.FC<LoginPageProps> = () => {
             padding: '15px',
             border: '1px solid rgba(112, 124, 151, 0.25)',
             boxSizing: 'border-box',
-            backgroundColor: '#343846',
+            backgroundColor: '#16213E',
             boxShadow:
               '10px 10px 25px rgba(112, 124, 151, 0.05), 10px 15px 35px rgba(112, 124, 151, 0.05)',
           }}
@@ -43,7 +43,7 @@ const LoginPage: React.FC<LoginPageProps> = () => {
             <a
               style={{
                 textDecoration: 'none',
-                color: '#535CD0',
+                color: '#E94560',
                 fontWeight: 'bold',
               }}
               href='https://gun.eco/'
