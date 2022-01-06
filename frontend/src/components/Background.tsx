@@ -2,22 +2,24 @@ import React from 'react';
 
 import { Box } from '@mui/material';
 
-interface BackgroundProps {}
+interface BackgroundProps {
+  isHome?: boolean;
+}
 
-const Background: React.FC<BackgroundProps> = (props) => {
+const Background: React.FC<BackgroundProps> = ({ isHome, children }) => {
   return (
     <Box
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
+        justifyContent: !isHome ? 'center' : '',
         alignItems: 'center',
-        height: '100%',
+        height: '100vh',
         width: '100%',
         backgroundColor: '#1A1A2E',
       }}
     >
-      {props.children}
+      {children}
     </Box>
   );
 };

@@ -3,21 +3,25 @@ import Background from 'components/Background';
 import { Typography } from '@mui/material';
 import MainLayout from 'components/MainLayout/MainLayout';
 
+import { makeStyles } from 'utils/makeStyles';
+
 interface ChatsPageProps {}
 
+const useStyles = makeStyles()(() => ({
+  root: {
+    height: '100%',
+    // cursor: 'pointer',
+    display: 'flex',
+    overflow: 'hidden',
+  },
+}));
+
 const ChatsPage: React.FC<ChatsPageProps> = (props) => {
-  console.log('here');
+  const { classes } = useStyles();
   return (
-    <Background>
+    <Background isHome={true}>
       <MainLayout />
-      <div
-        style={{
-          height: '100vh',
-        }}
-      >
-        pklk
-      </div>
-      <Typography>Home page</Typography>
+      <div className={classes.root}></div>
     </Background>
   );
 };
