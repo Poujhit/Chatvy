@@ -1,3 +1,3 @@
-# Relay Peer Sever
+# Relay Peer Server
 
-This is a relay peer for gun.js.
+This is a relay peer server for gun.js.
