@@ -8,7 +8,6 @@
 
 [Color pallete](https://colorhunt.co/palette/1a1a2e16213e0f3460e94560) 
 
-A Private Chat Room Application made using React/Typescript and NodeJs.\
 Try out [here](https://chatzilla-private-chat.web.app/).
 
 ## Features
