@@ -12,10 +12,7 @@ Try out [here](https://chatzilla-private-chat.web.app/).
 
 ## Features
 
-- Users can create chat rooms on the go.
-- Simple login process.
-- All your chats are not stored anywhere. Even the chat rooms are not stored anywhere.
-- All your conversations are private and unauthorized users can't access it.
+- Will be added later
 
 ## About Me
 
