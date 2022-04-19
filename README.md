@@ -4,7 +4,7 @@
 <img src="./client/public/icon.png"/>
 </p> -->
 
-**Website under upgrade to v2.0 - Decentralised, offline-first, peer-to-peer chat application powered by gun.js**
+**Decentralised, offline-first, peer-to-peer chat application powered by gun.js**
 
 [Color pallete](https://colorhunt.co/palette/1a1a2e16213e0f3460e94560) 
 
