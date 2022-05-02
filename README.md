@@ -8,7 +8,6 @@
 
 [Color pallete](https://colorhunt.co/palette/1a1a2e16213e0f3460e94560) 
 
-Try out [here](https://chatzilla-private-chat.web.app/).
 
 ## Features
 
